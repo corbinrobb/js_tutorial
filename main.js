@@ -1,8 +1,8 @@
-let Phrase = require("mhartl-palindrome");
+let Phrase = require("corbinrobb-palindrome");
 
 function palindromeTester(event) {
   event.preventDefault();
-  
+
   let phrase = new Phrase(event.target.phrase.value);
   let palindromeResult = document.querySelector("#palindromeResult");
 
